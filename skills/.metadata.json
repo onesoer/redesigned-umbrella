@@ -1,6 +1,54 @@
 {
   "version": 1,
   "entries": {
+    "frontend-design": {
+      "source": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+      "type": "github-subdir",
+      "branch": "main",
+      "installed_at": "2026-11-23T18:25:29.673705489+07:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/frontend-design",
+      "version": "e4bb5d9",
+      "tree_hash": "d79e2a5bb4df4a386c2adcdd9ab8709bba28c3f6",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "SKILL.md": "sha256:d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+      }
+    },
+    "shadcn": {
+      "source": "github.com/shadcn-ui/ui/skills/shadcn",
+      "type": "github-subdir",
+      "installed_at": "2026-11-23T18:30:37.219635655+07:00",
+      "repo_url": "https://github.com/shadcn-ui/ui.git",
+      "subdir": "skills/shadcn",
+      "version": "055aa6b",
+      "tree_hash": "900e3dff4bc1b341db90a147bee6dbed4c2add3c",
+      "commit": "055aa6b7837b1808456a24beb4c97a677864aa82",
+      "file_hashes": {
+        "SKILL.md": "sha256:93951e5e83f616a3e046491c00d770bd54c0a64164706cd1191822a233d27592",
+        "agents/openai.yml": "sha256:35db91b1eef58b2abe01da9b88577de5a44e233b740cd93d692ddeeadd2afe4d",
+        "assets/shadcn-small.png": "sha256:0ecc62d682727f68fc4937eed19960c706714fa084d44f63028d611ae02bf3d7",
+        "assets/shadcn.png": "sha256:7d60ad6fec4d89a0d44ba5a3c9283d2fea0047af5467f9227040e20d927d39b7",
+        "assets/showcase/color-pair.tsx": "sha256:6028f0b677912216822fdaf76ae6b8863c429916ed4a9626b73f4de4506f8ee4",
+        "assets/showcase/preview-states.css": "sha256:8d9e3cec24dd01b11c5ba12196d0376a131797d9ad247ea624e66eb8bbf61b0e",
+        "assets/showcase/state-matrix.tsx": "sha256:07794119fe05ff735358b3f8ca30a8297617ab64dfb3901dce4d89fe5f443458",
+        "cli.md": "sha256:a381e35bf36fe7bb851952c13707e01e82434fd7a4a4e53f6df26c6370838904",
+        "customization.md": "sha256:a19e81c78843df255e85755e52659268d793845add845b34ad8091f62bff3af9",
+        "design-system-page.md": "sha256:c541d661af159548744be3e27f79e7da710ab83f9afd448a4346f7ff1531d328",
+        "design-system.md": "sha256:9ed11e93e7e80e34c8795d5ba82e5420ca905e8e9949fef79cbe9239184fd06b",
+        "evals/evals.json": "sha256:e82c747326a5c21e37a1c962274d36b1bfebb3e6602ee368b98e2dba5db18369",
+        "mcp.md": "sha256:8d696b4e45b7d0e337367248513bd9acebe8f3bcfd7b748c775e5a337c8f38c8",
+        "registry.md": "sha256:4f239be36bd2b58e17047db1ca80ab7da00e15a8b73242e5e4d50d113c4caa05",
+        "rules/base-vs-radix.md": "sha256:2b2deb47d004285220c1fc6b38bb2edc2d0ccbcdafd031b0b189d5d8ed0d1ba8",
+        "rules/chat.md": "sha256:4b4610d487ddc9751f3cfe0c554a06560ac723fcc2460abad77a1d3c7c9a4b95",
+        "rules/composition.md": "sha256:f282df828d83a91132a846ddb62eea149a7c7c94822e9ca88cfddf85af01aa41",
+        "rules/forms.md": "sha256:29593e14381e34626f8e0e9c15c59f3394b92a0623af6a6ec94585400123853c",
+        "rules/icons.md": "sha256:d4a58266648872d9ee07d0c2368843a1cb88b8253b7f528dd7bda9d68b6c2535",
+        "rules/styling.md": "sha256:f88fbd72dff862805b786dc7d7e4c74c83030fc278c5b97c993e4e665001798c",
+        "scripts/showcase-coverage.mjs": "sha256:fb593e0806414d23b51354a46881f0b2873afc226bda0926a22f83cbd60af2fa"
+      }
+    },
     "skillshare": {
       "source": "github.com/runkids/skillshare/skills/skillshare",
       "type": "github-subdir",
@@ -30,6 +78,26 @@
         "references/targets.md": "sha256:f0b2db33056ee697402b3fbcc172379ab25490751237d0159168a56d6778613f",
         "references/trash.md": "sha256:2c708df8e50b415b51713bddfbdb8ea95620e35ed49110946fcfcd0047c66945",
         "scripts/run.sh": "sha256:e434ebdb7d3ae0b37c00ddc36687bc975da9e766b8cb863f9aed9a624ebbdfa9"
+      }
+    },
+    "using-superpowers": {
+      "source": "github.com/obra/superpowers/skills/using-superpowers",
+      "type": "github-subdir",
+      "installed_at": "2026-11-23T18:32:37.803289837+07:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/using-superpowers",
+      "version": "22f0b46",
+      "tree_hash": "4c777432715fe58984d212a36aedc6a18472e512",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "file_hashes": {
+        "SKILL.md": "sha256:82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
+        "references/antigravity-tools.md": "sha256:4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0",
+        "references/claude-code-tools.md": "sha256:21479a3fee27448cab8748a3b5687e53bb257883bda9c070426f9a1ab5cebf1b",
+        "references/codex-tools.md": "sha256:1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7",
+        "references/gemini-tools.md": "sha256:62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965",
+        "references/hermes-tools.md": "sha256:e2185c976a3c87503910e05e2aea58cc89bc8e569bb624b93df9958ac47a9190",
+        "references/muse-tools.md": "sha256:5a1da5c575fe18456ca71cd47ebfd8a38c745f8d82a67fe64d5b83080000eeb3",
+        "references/pi-tools.md": "sha256:703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5"
       }
     }
   }
