@@ -1,0 +1,12 @@
+description: Inject CodeGraph context on prompt submit (claude, pi, opencode)
+bindings:
+  claude:
+    events:
+      UserPromptSubmit:
+        - hooks:
+            - command: codegraph prompt-hook
+              type: command
+  pi:
+    codeFile: hooks/codegraph-prompt-pi.ts
+  opencode:
+    codeFile: hooks/codegraph-prompt-opencode.ts
